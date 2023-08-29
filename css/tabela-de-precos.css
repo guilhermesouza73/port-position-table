@@ -1,0 +1,158 @@
+/* Estilos Gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.box-central {
+  max-width: 1024px;
+  margin: 0 auto;
+  min-width: 600px;
+}
+table {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.subtitulo-logo {
+  font-size: 16px;
+  color: #2f86d6;
+  font-weight: bold;
+}
+.subtitulo {
+  font-size: 28px;
+}
+.botao {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 20px;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 10px;
+}
+p {
+  font-size: 16px;
+}
+a {
+  display: inline-block;
+}
+.span-blue {
+  color: #2f86d6;
+  font-size: 32px;
+}
+.titulo {
+  font-size: 32px;
+  color: #000;
+}
+/* logo */
+.imagem-logo {
+  width: 100px;
+}
+.logo-div {
+  position: relative;
+}
+.logo-div h1 {
+  position: absolute;
+  top: 10px;
+  left: 120px;
+}
+.logo-div .subtitulo-logo {
+  position: absolute;
+  top: 50px;
+  left: 120px;
+}
+
+/* Topo */
+.topo {
+  padding: 35px;
+  background-color: #2f86d6;
+}
+.topo p {
+  color: #fff;
+}
+.topo nav a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.topo .box-central {
+  position: relative;
+}
+.topo .menu {
+  position: absolute;
+  right: 0;
+  top: calc(50% - 20px);
+}
+.topo .logo-div {
+  margin-left: 100px;
+}
+
+/* Tabela */
+.tabela {
+  max-width: 1024px;
+  text-align: center;
+  margin: 60px auto;
+}
+.tabela table {
+  width: 1024px;
+}
+.tabela th {
+  padding: 20px 10px;
+  background-color: #f1f3f7;
+}
+.tabela .vazio {
+  background-color: #fff;
+}
+.tabela tbody tr td:nth-child(1) {
+  background-color: #f1f3f7;
+}
+.tabela td {
+  padding: 15px;
+}
+.tabela .asterisco::after {
+  content: "00";
+  border-radius: 50%;
+  background-color: #2f86d6;
+  color: #2f86d6;
+}
+.tabela table tbody tr:nth-child(even) {
+  background-color: #f1f3f1;
+}
+
+/* Rodapé */
+.contato {
+  margin-top: 50px;
+  background-color: #2f86d6;
+  padding-top: 30px;
+}
+.contato .logo-div h1 {
+  top: 10px;
+  left: 50%;
+}
+.contato .logo-div p {
+  top: 60px;
+  left: 50%;
+}
+.contato .logo-div a {
+  margin: 0 calc(50% - 110px);
+  display: block;
+}
+.contato-div-2 {
+  margin: 40px 0;
+  text-align: center;
+}
+.contato p {
+  color: #fff;
+}
+.contato .copy {
+  background-color: #f1f3f7;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  color: #000;
+}
+.contato .copy .span-blue {
+  font-size: 16px;
+}

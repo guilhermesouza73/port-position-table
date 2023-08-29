@@ -1,0 +1,288 @@
+/* Estilos Gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.box-central {
+  max-width: 1024px;
+  margin: 0 auto;
+  min-width: 600px;
+}
+table {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.subtitulo-logo {
+  font-size: 16px;
+  color: #2f86d6;
+  font-weight: bold;
+}
+.subtitulo {
+  font-size: 28px;
+}
+.botao {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 20px;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 10px;
+}
+p {
+  font-size: 16px;
+}
+a {
+  display: inline-block;
+}
+.span-blue {
+  color: #2f86d6;
+  font-size: 32px;
+}
+.titulo {
+  font-size: 32px;
+  color: #000;
+}
+/* logo */
+.imagem-logo {
+  width: 100px;
+}
+.logo-div {
+  position: relative;
+}
+.logo-div h1 {
+  position: absolute;
+  top: 10px;
+  left: 120px;
+}
+.logo-div .subtitulo-logo {
+  position: absolute;
+  top: 50px;
+  left: 120px;
+}
+
+/* Topo */
+.topo {
+  padding: 35px;
+}
+.topo nav a {
+  font-size: 18px;
+  color: #233032;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.topo .box-central {
+  position: relative;
+}
+.topo .menu {
+  position: absolute;
+  right: 0;
+  top: calc(50% - 20px);
+}
+
+/* Banner */
+.banner {
+  background-color: #2f86d6;
+  padding: 35px;
+}
+.banner p,
+h2 {
+  color: #fff;
+}
+
+/* Primeiro Anuncio */
+.primeiro-anuncio {
+  background-color: #233032;
+  padding: 40px 0;
+}
+.primeiro-anuncio p,
+a {
+  color: #fff;
+}
+.primeiro-anuncio a {
+  background-color: #2f86d6;
+}
+.primeiro-anuncio img {
+  margin-right: 10px;
+  padding: 0;
+}
+
+/* Informações */
+.informacoes h2 {
+  color: #000;
+}
+.informacoes h3 {
+  font-size: 18px;
+  color: #000;
+}
+
+/* BANNER */
+.banner {
+  padding: 180px 0;
+  position: relative;
+}
+.banner .box-central div:nth-child(1) {
+  width: 50%;
+}
+.banner .box-central div:nth-child(2) {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  width: 50%;
+}
+
+/* Primeiro Anuncio e Segundo Anuncio */
+.primeiro-anuncio,
+.planos-2 {
+  padding: 50px 0;
+}
+.primeiro-anuncio .box-central,
+.planos-2 .box-central {
+  position: relative;
+}
+.primeiro-anuncio .box-central div:nth-child(2),
+.planos-2 .box-central div:nth-child(2) {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+.primeiro-anuncio .box-central div:nth-child(1),
+.planos-2 .box-central div:nth-child(1) {
+  width: 70%;
+}
+.primeiro-anuncio .botao,
+.planos-2 .botao {
+  padding: 22px;
+}
+
+/* Informações */
+.informacoes .subtitulo {
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+}
+.informacoes .box-central {
+  position: relative;
+  padding: 60px 0;
+  margin-bottom: 200px;
+}
+.informacoes .box-central .informacoes-1,
+.informacoes .box-central .informacoes-2,
+.informacoes .box-central .informacoes-3 {
+  max-width: 33%;
+  position: absolute;
+  text-align: center;
+  margin-top: 40px;
+}
+.informacoes .box-central .informacoes-1 {
+  left: 0;
+}
+.informacoes .box-central .informacoes-2 {
+  left: 66%;
+}
+.informacoes .box-central .informacoes-3 {
+  left: 33%;
+}
+.informacoes .box-central img {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Planos */
+.planos {
+  padding: 30px 0;
+}
+.planos .subtitulo {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.planos table {
+  width: 1024px;
+  text-align: center;
+}
+.planos table img {
+  width: 100px;
+  margin: 20px auto;
+  display: block;
+}
+.planos table p {
+  margin-bottom: 20px;
+}
+.planos table td {
+  padding: 10px 0;
+}
+
+.planos h2 {
+  color: #000;
+}
+.planos .box-central table {
+  background-color: #fff;
+  box-shadow: #2f86d6 0 0 60px;
+}
+.planos table th {
+  font-size: 18px;
+}
+.tr-par {
+  background-color: #f1f3f7;
+}
+.tr-impar {
+  background-color: #f6f6f6;
+}
+.planos table p {
+  font-weight: 300;
+  font-size: 13px;
+}
+.planos table img {
+  width: 200px;
+}
+.planos {
+  margin: 40px 0;
+}
+
+/* Planos2 */
+.planos-2 {
+  background-color: #2f86d6;
+  padding: 40px 0;
+}
+.planos-2 h2 {
+  font-size: 24px;
+}
+.planos-2 .botao {
+  background-color: #233032;
+}
+.planos-2 a img {
+  margin-right: 15px;
+  padding: 0;
+}
+
+/* Rodapé */
+.contato {
+  margin-top: 50px;
+}
+.contato .logo-div h1,
+.contato .logo-div p {
+  left: 50%;
+}
+.contato .logo-div a {
+  margin: 0 calc(50% - 110px);
+  display: block;
+}
+.contato-div-2 {
+  margin: 40px 0;
+  text-align: center;
+}
+.contato h2 {
+  color: #000;
+}
+.contato .copy {
+  background-color: #f1f3f7;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.contato .copy .span-blue {
+  font-size: 16px;
+}
